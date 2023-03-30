@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+// .commentCard__container{
+//     margin-top: 5%;
+//     width: 320px;
+//     height: 658px;
+//     border: .01rem solid black;
+
+//     display: flex;
+//     justify-content: center;
+// }
+
+.comment__container{
+     border: .01rem solid black;
+     width: 90%;
+     height: fit-content;
+     width: fit-content;
+}
+
+.comment__element{
+    &--title{
+    border: .01rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+     &--subreddit{
+    border: .01rem solid black;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+
+    } &--author{
+    border: .01rem solid black;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+
+    } &--votes{
+    border: .01rem solid black;
+    display: flex;
+    justify-content: space-around;
+    // width: 100%;
+    // flex-direction: column;
+    }
+    &--up{
+    border: .01rem solid black;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    // display: flex;
+    }
+     &--down{
+    border: .01rem solid black;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    // display: flex;
+    }
+
+    &--comment{
+    border: .01rem solid black;
+    height: 3rem;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+}
