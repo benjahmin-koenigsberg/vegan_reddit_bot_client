@@ -11,21 +11,25 @@ a {
 }
 
 .commentCard__container{
-    display: flex;
-    border: .01rem solid black;
-    width: 100%;
 
+display: flex;
+flex-direction: column;
+width: 40%;
+display: flex;
+margin: 0 auto;
 
 }
 
 .comment__container{
      border: .01rem solid black;
      width: 100%;
-     height: fit-content;
-     width: fit-content;
      margin: .5rem 0;
      padding: .5rem;
 
+         &--labels{
+text-align: center;
+margin: .25rem 0;
+    }
 }
 
 .comment__element{
@@ -34,8 +38,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 4rem;
-    padding: 0 .5rem;
+    height: max-content;
+    padding: .5rem;
 
 
     }
@@ -60,6 +64,8 @@ a {
     display: flex;
     justify-content: space-around;
     height: 2rem;
+    padding: .5rem 0;
+
 
     }
     &--up{
@@ -79,11 +85,11 @@ a {
 
     &--comment{
     border: .01rem solid black;
-    height: 4rem;
-        display: flex;
+    height: max-content;
+    display: flex;
     justify-content: center;
     align-items: center;
-     padding: 0 .5rem;
+    padding: .5rem;
 
     }
 

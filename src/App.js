@@ -27,7 +27,7 @@ axios.get("http://localhost:8000/comments")
               {comments.map((comment) => {
                 return <CommentCard comment={comment} />;
               })}
-            </div>
+            // </div>
           }/>
       </Routes>
     </BrowserRouter>
