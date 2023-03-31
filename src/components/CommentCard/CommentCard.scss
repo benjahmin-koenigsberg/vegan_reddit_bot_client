@@ -5,21 +5,22 @@
 
 }
 
-// .commentCard__container{
-//     margin-top: 5%;
-//     width: 320px;
-//     height: 658px;
-//     border: .01rem solid black;
+.commentCard__container{
+    display: flex;
+    border: .01rem solid black;
 
-//     display: flex;
-//     justify-content: center;
-// }
+
+
+}
 
 .comment__container{
      border: .01rem solid black;
-     width: 90%;
+     width: 100%;
      height: fit-content;
      width: fit-content;
+     margin: .5rem 0;
+     padding: .5rem;
+
 }
 
 .comment__element{
@@ -28,25 +29,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 4rem;
+    padding: 0 .5rem;
+
+
     }
      &--subreddit{
     border: .01rem solid black;
         display: flex;
     justify-content: center;
     align-items: center;
+        height: 2rem;
+
 
     } &--author{
     border: .01rem solid black;
         display: flex;
     justify-content: center;
     align-items: center;
+        height: 2rem;
+
 
     } &--votes{
     border: .01rem solid black;
     display: flex;
     justify-content: space-around;
-    // width: 100%;
-    // flex-direction: column;
+    height: 2rem;
+
     }
     &--up{
     border: .01rem solid black;
@@ -65,10 +74,12 @@
 
     &--comment{
     border: .01rem solid black;
-    height: 3rem;
+    height: 4rem;
         display: flex;
     justify-content: center;
     align-items: center;
+     padding: 0 .5rem;
+
     }
 
 }
