@@ -5,10 +5,15 @@
 
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .commentCard__container{
     display: flex;
     border: .01rem solid black;
-
+    width: 100%;
 
 
 }

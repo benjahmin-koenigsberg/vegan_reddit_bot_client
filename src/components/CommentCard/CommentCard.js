@@ -1,9 +1,11 @@
 import React from 'react';
 import './CommentCard.scss';
+import { Link } from "react-router-dom";
 
 export const CommentCard = ( {comment} ) => {
   return (
-    <>
+    <Link to={comment.link_permalink}   >
+      {/* <a href={comment.link_permalink} > */}
       <div className="commentCard__container">
         <div className="comment__container">
           <div className="comment__element--title">
@@ -28,6 +30,7 @@ export const CommentCard = ( {comment} ) => {
           </div>
         </div>
       </div>
-    </>
+      {/* </a> */}
+    </Link>
   );
 }

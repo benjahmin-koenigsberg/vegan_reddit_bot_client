@@ -3,7 +3,7 @@ import './App.scss';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
@@ -18,10 +18,19 @@ axios.get("http://localhost:8000/comments")
 
 
   return (
-    <div className='app' >
-      { comments.map( comment =>  {
-        return  <CommentCard comment={comment} /> } )}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="app">
+              {comments.map((comment) => {
+                return <CommentCard comment={comment} />;
+              })}
+            </div>
+          }/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
