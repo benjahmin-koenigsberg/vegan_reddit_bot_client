@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ a {
     color: black;
 }
 
+
 .commentCard__container{
 
 display: flex;
@@ -18,13 +21,15 @@ width: 40%;
 display: flex;
 margin: 0 auto;
 
+
 }
 
 .comment__container{
-     border: .01rem solid black;
+     border: .1rem solid #ff6314;
      width: 100%;
      margin: .5rem 0;
      padding: .5rem;
+     background-color: #d7d7d7;
 
          &--labels{
 text-align: center;
@@ -40,6 +45,7 @@ margin: .25rem 0;
     align-items: center;
     height: max-content;
     padding: .5rem;
+    background-color: white;
 
 
     }
@@ -48,7 +54,9 @@ margin: .25rem 0;
         display: flex;
     justify-content: center;
     align-items: center;
-        height: 2rem;
+    height: 2rem;
+    background-color: white;
+
 
 
     } &--author{
@@ -56,40 +64,58 @@ margin: .25rem 0;
         display: flex;
     justify-content: center;
     align-items: center;
-        height: 2rem;
+    height: 2rem;
+    background-color: white;
+
 
 
     } &--votes{
-    border: .01rem solid black;
     display: flex;
-    justify-content: space-around;
     height: 2rem;
     padding: .5rem 0;
-
-
+    background-color: white;
+    font-size: 1.5rem;
+    justify-content: center;
     }
+
+    &--icons{
+        width: .5rem;
+        height: .5rem;
+
+        &-up{
+        width: .25rem;
+
+        }
+    }
+
     &--up{
-    border: .01rem solid black;
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    // display: flex;
+    margin: .25rem;
+
+
+
     }
      &--down{
-    border: .01rem solid black;
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    // display: flex;
+    margin: .25rem;
+
+
+
     }
 
     &--comment{
     border: .01rem solid black;
-    height: max-content;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: .5rem;
+    background-color: white;
+
 
     }
 

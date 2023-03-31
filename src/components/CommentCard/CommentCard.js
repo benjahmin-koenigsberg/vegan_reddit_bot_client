@@ -1,11 +1,14 @@
 import React from 'react';
 import './CommentCard.scss';
 import { Link } from "react-router-dom";
+import upsIcon from '../../assets/ups.png'
+import downsIcon from "../../assets/downs.jpeg";
+
+
 
 export const CommentCard = ( {comment} ) => {
   return (
     <Link to={comment.link_permalink}>
-      {/* <a href={comment.link_permalink} > */}
       <div className="commentCard__container">
         <div className="comment__container">
           <div className="comment__container--labels">post Title</div>
@@ -22,20 +25,24 @@ export const CommentCard = ( {comment} ) => {
           </div>
           <div className="comment__container--labels">votes</div>
           <div className="comment__element--votes">
+            <img src={upsIcon} className="comment__elemnet--icons-up"></img>
+
             <div className="comment__element--up">
-              <h5>Ups{comment.ups}</h5>
+              <h5>{comment.ups}</h5>
             </div>
+
+            <img src={downsIcon} className="comment__elemnet--icons-down"></img>
+
             <div className="comment__element--down">
-              <h5>Downs {comment.downs}</h5>
+              <h5>{comment.downs}</h5>
             </div>
           </div>
           <div className="comment__container--labels">comment</div>
           <div className="comment__element--comment">
-            <h6>{comment.body}</h6>
+            <h6 >{comment.body}</h6>
           </div>
         </div>
       </div>
-      {/* </a> */}
     </Link>
   );
 }
