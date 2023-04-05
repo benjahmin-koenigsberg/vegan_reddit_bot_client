@@ -1,8 +1,10 @@
 .console{
     width: 90%;
-    height: 30rem;
+    height: 32rem;
+    overflow-y: scroll;
     border: .2rem solid #5296dd;
     border-radius: 2rem;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    background-color: #92bddf;
 }

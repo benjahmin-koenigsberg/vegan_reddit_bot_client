@@ -1,27 +1,27 @@
 import React from 'react';
-import './CommentCard.scss';
-// import { Link } from "react-router-dom";
+import '../CommentCard/CommentCard.scss';
+import { Link } from "react-router-dom";
 import upsIcon from '../../assets/ups.png'
 import downsIcon from "../../assets/downs.jpeg";
 
 
 
-export const CommentCard = ( {post} ) => {
-  return (
-    // <Link to={comment.permalink}>
+export const BotComments = ( {comment} ) => {
+return (
+    <Link to={comment.link_permalink}>
       <div className="commentCard__container">
         <div className="comment__container">
           <div className="comment__container--labels">post Title</div>
           <div className="comment__element--title">
-            <h5>{post.title}</h5>
+            <h5>{comment.link_title}</h5>
           </div>
           <div className="comment__container--labels">r/subreddit</div>
           <div className="comment__element--subreddit">
-            <h5>{post.subreddit}</h5>
+            <h5>{comment.subreddit}</h5>
           </div>
           <div className="comment__container--labels">post author</div>
           <div className="comment__element--author">
-            <h5>{post.author}</h5>
+            <h5>{comment.link_author}</h5>
           </div>
           {/* <div className="comment__container--labels">votes</div>
           <div className="comment__element--votes">
@@ -37,12 +37,12 @@ export const CommentCard = ( {post} ) => {
               <h5>{comment.downs}</h5>
             </div>
           </div> */}
-          <div className="comment__container--labels">post content</div>
+          <div className="comment__container--labels">comment</div>
           <div className="comment__element--comment">
-            <h6 >{post?.selftext}</h6>
+            <h6 >{comment.body}</h6>
           </div>
         </div>
       </div>
-    // </Link>
+    </Link>
   );
 }
