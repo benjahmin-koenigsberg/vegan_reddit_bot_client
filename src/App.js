@@ -3,14 +3,15 @@ import './App.scss';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Header } from './components/Header/Header';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
 const [comments , setComments] = useState([])
 
 useEffect( ()=>{
-axios.get("http://localhost:8000/comments")
+axios.get("http://localhost:8000/")
 .then( res => {
   setComments(res.data)
 }).catch(err=>console.log(err))
@@ -18,9 +19,10 @@ axios.get("http://localhost:8000/comments")
 
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
+    <Header />
+    // <BrowserRouter>
+    //   <Routes>
+        /* <Route
           path="/"
           element={
             <div className="app">
@@ -28,9 +30,9 @@ axios.get("http://localhost:8000/comments")
                 return <CommentCard comment={comment} />;
               })}
             // </div>
-          }/>
-      </Routes>
-    </BrowserRouter>
+          }/> */
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 

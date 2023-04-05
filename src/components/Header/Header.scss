@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    height: 7rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    background-color: #ff6314ff;
+    display: flex;
+    justify-content: center;
+
+        &__title{
+        margin: auto 0;
+        margin-left: -1.75rem;
+        font-size: 2.5rem;
+
+        }
+
+
+        &__logos--reddit{
+            width: 5rem;
+        }
+
+         &__logos--vegan{
+            width: 5rem;
+        }
+
+}
