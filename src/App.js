@@ -19,7 +19,7 @@ function App() {
    axios
      .get("https://vegan-reddit-troll-server.vercel.app/")
      .then( (res) => {
-      //console.log(res.data)
+      console.log(res.data)
        setPosts([res.data]);
      }).catch(err => console.log(err))
 
