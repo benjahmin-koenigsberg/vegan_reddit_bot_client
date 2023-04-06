@@ -4,21 +4,20 @@ import React from "react";
 import "../Console/Console.scss";
 import "../CommentCard/CommentCard.scss";
 import { BotComments } from "../BotComments/BotComments";
-import ScrollingTextComments from "../ScrollingText/ScrollingText";
+import { ScrollingTextComments } from "../ScrollingTextComments/ScrollingTextComments";
 import "../ScrollingText/ScrollingText.scss";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
 const BotConsole = ( ) => {
 
-
 const [comments, setComments] = useState([]);
 
  useEffect(() => {
    axios
-     .get("http://localhost:8001/com")
+     .get("https://vegan-reddit-troll-client.vercel.app/com")
      .then((res) => {
-       setComments( res.data );
+       setComments(res.data);
        console.log(res.data);
      })
      .catch((err) => console.log(err));
@@ -36,4 +35,4 @@ const [comments, setComments] = useState([]);
   );
 };
 
-export {BotConsole};
+export default BotConsole;

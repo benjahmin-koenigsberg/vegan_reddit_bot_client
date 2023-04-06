@@ -1,8 +1,6 @@
-/** @format */
-import React from "react";
-import "../ScrollingText/ScrollingText.scss";
+import React from 'react'
 
-const ScrollingTextComments = () => {
+export const ScrollingTextComments = () => {
   return (
     <div className="scroll-container">
       <div className="scroll-text">
@@ -11,6 +9,4 @@ const ScrollingTextComments = () => {
       </div>
     </div>
   );
-};
-
-export default ScrollingTextComments;
+}

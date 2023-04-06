@@ -5,13 +5,19 @@ import { useEffect, useState } from "react";
 import { Header } from "./components/Header/Header";
 import Console from "./components/Console/Console";
 import { AboutConsole } from "./components/AboutConsole/AboutConsole";
-import { BotConsole } from "./components/BotConsole/BotConsole";
+import BotConsole from "./components/BotConsole/BotConsole";
 import { io } from "socket.io-client";
-// import axios from "axios";
+import axios from "axios";
 const socket = io(process.env.REACT_APP_SERVER);
 
 function App() {
   const [posts, setPosts] = useState([]);
+
+   axios
+     .get("https://vegan-reddit-troll-server.vercel.app/")
+     .then((_req, res) => {
+       setPosts(res.data);
+     });
 
   useEffect(() => {
     document.title = "Vegan Reddit Bot";
