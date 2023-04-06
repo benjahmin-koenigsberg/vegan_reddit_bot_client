@@ -16,7 +16,8 @@ function App() {
    axios
      .get("https://vegan-reddit-troll-server.vercel.app/")
      .then((_req, res) => {
-       setPosts(res.data);
+      console.log(res.data)
+       setPosts([res.data]);
      });
 
   useEffect(() => {
