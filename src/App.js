@@ -2,13 +2,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { Header } from './components/Header/Header';
 import Console  from './components/Console/Console';
 import { AboutConsole } from "./components/AboutConsole/AboutConsole";
 import { BotConsole }  from './components/BotConsole/BotConsole'
 import { io } from "socket.io-client";
-import axios from "axios";
+// import axios from "axios";
 const socket = io("http://localhost:8001");
 
 function App() {
