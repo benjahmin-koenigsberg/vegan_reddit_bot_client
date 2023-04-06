@@ -17,7 +17,7 @@ export const Header = ( {posts, setPosts} ) => {
     .get("https://vegan-reddit-troll-server.vercel.app/")
     .then((res) => {
      // console.log( );
-      setPosts([...res.data, posts]);
+      setPosts([res.data, ...posts]);
     })
     .catch((err) => console.log(err));
   navigation("/")  }
