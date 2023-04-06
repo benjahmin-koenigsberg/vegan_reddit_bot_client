@@ -2,23 +2,22 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
 import { useEffect, useState } from "react";
-import { Header } from './components/Header/Header';
-import Console  from './components/Console/Console';
+import { Header } from "./components/Header/Header";
+import Console from "./components/Console/Console";
 import { AboutConsole } from "./components/AboutConsole/AboutConsole";
-import { BotConsole }  from './components/BotConsole/BotConsole'
+import { BotConsole } from "./components/BotConsole/BotConsole";
 import { io } from "socket.io-client";
 // import axios from "axios";
-const socket = io("http://localhost:8001");
+const socket = io(process.env.REACT_APP_SERVER);
 
 function App() {
-
-  const [posts, setPosts ] = useState([])
+  const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     document.title = "Vegan Reddit Bot";
     socket.on("stream", (item) => {
       setPosts((prev) => {
-        if (!prev.find( (post) => post.id === item.id)) {
+        if (!prev.find((post) => post.id === item.id)) {
           console.log(item);
           return [item, ...prev];
         } else {
@@ -28,14 +27,13 @@ function App() {
     });
   }, []);
 
-
   return (
     <BrowserRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Console posts={posts} />} />
         <Route path="/comments" element={<BotConsole />} />
-        <Route path="/about" element={< AboutConsole />} />
+        <Route path="/about" element={<AboutConsole />} />
       </Routes>
     </BrowserRouter>
   );
