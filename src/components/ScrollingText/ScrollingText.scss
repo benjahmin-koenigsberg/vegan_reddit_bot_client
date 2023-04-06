@@ -2,8 +2,10 @@
 .scroll-container {
 border: .1rem solid black;
 //   border-radius: 5px;
-  overflow: hidden;
-  height: min-content;
+ white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+        height: min-content;
 }
 
 .scroll-text {

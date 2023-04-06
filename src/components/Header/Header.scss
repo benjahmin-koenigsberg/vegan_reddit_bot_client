@@ -17,7 +17,7 @@
         font-family: monospace;
 
         @media(max-width: 500px){
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
         }
 
@@ -45,6 +45,10 @@
             justify-content: space-evenly;
             background-color: #5296dd;
             // border-top: .1rem solid #ffffff;
+
+               @media(max-width: 500px){
+            height: 2rem;
+        }
         }
 
 }

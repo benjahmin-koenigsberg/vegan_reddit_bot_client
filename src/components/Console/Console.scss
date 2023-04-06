@@ -1,10 +1,14 @@
 .console{
     width: 95%;
-    height: 32rem;
+    height: 30rem;
     overflow-y: scroll;
     border: .2rem solid #5296dd;
     border-radius: 2rem;
     margin: auto;
     margin-top: 1rem;
     background-color: #92bddf;
+
+    @media(min-height: 750px ){
+        height: 42rem;
+    }
 }

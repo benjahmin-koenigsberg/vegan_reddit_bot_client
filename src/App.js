@@ -6,7 +6,7 @@ import { Header } from "./components/Header/Header";
 import Console from "./components/Console/Console";
 import { AboutConsole } from "./components/AboutConsole/AboutConsole";
 import BotConsole from "./components/BotConsole/BotConsole";
-import { io } from "socket.io-client";
+// import { io } from "socket.io-client";
 import axios from "axios";
 // const socket = io(process.env.REACT_APP_SERVER);
 
