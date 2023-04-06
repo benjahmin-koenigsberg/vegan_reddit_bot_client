@@ -8,7 +8,7 @@ import { AboutConsole } from "./components/AboutConsole/AboutConsole";
 import BotConsole from "./components/BotConsole/BotConsole";
 import { io } from "socket.io-client";
 import axios from "axios";
-const socket = io(process.env.REACT_APP_SERVER);
+// const socket = io(process.env.REACT_APP_SERVER);
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -22,16 +22,16 @@ function App() {
 
   useEffect(() => {
     document.title = "Vegan Reddit Bot";
-    socket.on("stream", (item) => {
-      setPosts((prev) => {
-        if (!prev.find((post) => post.id === item.id)) {
-          console.log(item);
-          return [item, ...prev];
-        } else {
-          return prev;
-        }
-      });
-    });
+    // socket.on("stream", (item) => {
+    //   setPosts((prev) => {
+    //     if (!prev.find((post) => post.id === item.id)) {
+    //       console.log(item);
+    //       return [item, ...prev];
+    //     } else {
+    //       return prev;
+    //     }
+    //   });
+    // });
   }, []);
 
   return (
