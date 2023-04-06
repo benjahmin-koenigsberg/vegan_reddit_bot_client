@@ -19,10 +19,10 @@ return (
           <div className="comment__element--subreddit">
             <h5>{comment.subreddit}</h5>
           </div>
-          <div className="comment__container--labels">post author</div>
+          {/* <div className="comment__container--labels">post author</div>
           <div className="comment__element--author">
             <h5>{comment.link_author}</h5>
-          </div>
+          </div> */}
           {/* <div className="comment__container--labels">votes</div>
           <div className="comment__element--votes">
             <img src={upsIcon} className="comment__elemnet--icons-up"></img>

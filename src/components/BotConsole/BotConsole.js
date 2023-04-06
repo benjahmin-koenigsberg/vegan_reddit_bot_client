@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 
 const BotConsole = ( ) => {
 
+
 const [comments, setComments] = useState([]);
 
  useEffect(() => {
