@@ -12,10 +12,10 @@ const socket = io("http://localhost:8001");
 
 function App() {
 
-
   const [posts, setPosts ] = useState([])
 
   useEffect(() => {
+    document.title = "Vegan Reddit Bot";
     socket.on("stream", (item) => {
       setPosts((prev) => {
         if (!prev.find( (post) => post.id === item.id)) {
