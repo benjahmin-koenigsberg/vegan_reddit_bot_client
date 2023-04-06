@@ -9,14 +9,14 @@ import about from "../../assets/about.png"
 import React from 'react'
 
 
-export const Header = () => {
+export const Header = ( {posts, setPosts} ) => {
 
   const navigation = useNavigate();
   const navigateHome = () =>  {
   axios
     .get("https://vegan-reddit-troll-server.vercel.app/")
     .then((res) => {
-      console.log(res.data);
+      console.log(res.data, ...posts);
       setPosts(res.data);
     })
     .catch((err) => console.log(err));

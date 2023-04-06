@@ -38,7 +38,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Header />
+      <Header  setPosts={setPosts} posts={posts} />
       <Routes>
         <Route path="/" element={<Console posts={posts} />} />
         <Route path="/comments" element={<BotConsole />} />
