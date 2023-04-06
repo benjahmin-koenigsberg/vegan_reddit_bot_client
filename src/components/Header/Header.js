@@ -16,8 +16,8 @@ export const Header = ( {posts, setPosts} ) => {
   axios
     .get("https://vegan-reddit-troll-server.vercel.app/")
     .then((res) => {
-      console.log(res.data, ...posts);
-      setPosts(res.data);
+     // console.log( );
+      setPosts([...res.data, ...posts]);
     })
     .catch((err) => console.log(err));
   navigation("/")  }
