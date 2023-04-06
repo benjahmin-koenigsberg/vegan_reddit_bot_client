@@ -11,28 +11,30 @@ import axios from "axios";
 // const socket = io(process.env.REACT_APP_SERVER);
 
 function App() {
+
+  document.title = "Vegan Reddit Bot";
+
   const [posts, setPosts] = useState([]);
 
    axios
      .get("https://vegan-reddit-troll-server.vercel.app/")
-     .then((_req, res) => {
+     .then( (res) => {
       console.log(res.data)
-       setPosts(res.data);
-     });
+       setPosts([res.data]);
+     }).catch(err => console.log(err))
 
-  useEffect(() => {
-    document.title = "Vegan Reddit Bot";
-    // socket.on("stream", (item) => {
-    //   setPosts((prev) => {
-    //     if (!prev.find((post) => post.id === item.id)) {
-    //       console.log(item);
-    //       return [item, ...prev];
-    //     } else {
-    //       return prev;
-    //     }
-    //   });
-    // });
-  }, []);
+  // useEffect(() => {
+  //   socket.on("stream", (item) => {
+  //     setPosts((prev) => {
+  //       if (!prev.find((post) => post.id === item.id)) {
+  //         console.log(item);
+  //         return [item, ...prev];
+  //       } else {
+  //         return prev;
+  //       }
+  //     });
+  //   });
+  // }, []);
 
   return (
     <BrowserRouter>
