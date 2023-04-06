@@ -1,14 +1,11 @@
 /** @format */
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import { CommentCard } from "./components/CommentCard/CommentCard";
 import "./App.scss";
-
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
 import { Header } from './components/Header/Header';
 import Console  from './components/Console/Console';
+import { AboutConsole } from "./components/AboutConsole/AboutConsole";
 import { BotConsole }  from './components/BotConsole/BotConsole'
 import { io } from "socket.io-client";
 const socket = io("http://localhost:8001");
@@ -35,7 +32,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Console posts={posts} />} />
-        <Route path="/com" element={<BotConsole />} />
+        <Route path="/comments" element={<BotConsole />} />
+        <Route path="/about" element={< AboutConsole />} />
       </Routes>
     </BrowserRouter>
   );

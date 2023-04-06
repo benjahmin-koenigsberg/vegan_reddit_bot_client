@@ -13,14 +13,14 @@ export const Header = () => {
   return (
     <>
       <div className="header">
-        <img className="header__logo--reddit" src={redditLogo} />
+        {/* <img className="header__logo--reddit" src={redditLogo} /> */}
         <img className="header__logo--vegan" src={vLogo} />
         <h1 className="header__title">egan Reddit bot</h1>
       </div>
       <div className="header__nav">
-        <img className="header__logo--search" src={search}  />
+        <img className="header__logo--reddit" src={redditLogo}  />
         <img className="header__logo--comment" src={comment} />
-        <img className="header__logo--comment" src={about} />
+        <img className="header__logo--about" src={about} />
       </div>
     </>
   );
