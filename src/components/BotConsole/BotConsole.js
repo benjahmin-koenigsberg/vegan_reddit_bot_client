@@ -4,7 +4,7 @@ import React from "react";
 import "../Console/Console.scss";
 import "../CommentCard/CommentCard.scss";
 import { BotComments } from "../BotComments/BotComments";
-import ScrollingText from "../ScrollingText/ScrollingText";
+import ScrollingTextComments from "../ScrollingText/ScrollingText";
 import "../ScrollingText/ScrollingText.scss";
 import axios from "axios";
 import { useState, useEffect } from "react";
@@ -26,7 +26,7 @@ const [comments, setComments] = useState([]);
 
   return (
     <>
-      <ScrollingText />
+    <ScrollingTextComments />
       <div className="console">
         {comments.map((comment) => {
           return <BotComments comment={comment} />;

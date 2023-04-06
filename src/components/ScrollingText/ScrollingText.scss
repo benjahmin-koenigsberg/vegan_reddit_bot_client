@@ -3,13 +3,15 @@
 border: .1rem solid black;
 //   border-radius: 5px;
   overflow: hidden;
+  height: min-content;
 }
 
 .scroll-text {
   /* animation properties */
   transform: translateX(100%);
-  animation: my-animation 20s linear infinite;
-  font-size: 1.25rem;
+  animation: my-animation 15s linear infinite;
+  font-size: 1rem;
+
 }
 
 /* for Firefox */

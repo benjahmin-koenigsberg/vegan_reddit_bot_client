@@ -10,8 +10,10 @@ export const AboutConsole = () => {
           <div className="comment__container--labels">Vegan Reddit Troll</div>
           <div className="comment__element--comment">
             <h5>
-              An application to monitor incoming posts about animal consumption
-              and auto respond about their sentience and personhood
+              The vegan reddit troll bot is an application to monitor incoming
+              posts for specified keywords about animal
+              consumption to auto respond with comments about non human animal
+              sentience and personhood
             </h5>
           </div>
         </div>
