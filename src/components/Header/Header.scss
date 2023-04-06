@@ -1,3 +1,5 @@
+
+
 .header{
     width: 100%;
     height: 7rem;
@@ -6,22 +8,38 @@
     background-color: #ff6314ff;
     display: flex;
     justify-content: center;
+    // flex-direction: column;
 
         &__title{
         margin: auto 0;
-        margin-left: -1.75rem;
-        font-size: 2.5rem;
+        margin-left: -1rem;
+        font-size: 3rem;
         font-family: monospace;
-
         }
-
 
         &__logos--reddit{
             width: 5rem;
+            height: max-content;
         }
 
          &__logos--vegan{
             width: 5rem;
+        }
+
+        &__logos--search{
+            width: .25rem;
+
+        }
+
+        &__nav{
+            margin-top: .25rem;
+            width: 100%;
+            height: 3rem;
+            padding: .5rem 0;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #5296dd;
+            // border-top: .1rem solid #ffffff;
         }
 
 }
