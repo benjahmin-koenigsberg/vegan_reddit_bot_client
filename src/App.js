@@ -20,7 +20,7 @@ function App() {
      .get("https://vegan-reddit-troll-server.vercel.app/")
      .then( (res) => {
       console.log(res.data)
-       setPosts(res.data.sort());
+       setPosts(res.data.reverse());
      }).catch(err => console.log(err))
 
   // useEffect(() => {
