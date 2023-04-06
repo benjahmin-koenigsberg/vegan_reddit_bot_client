@@ -33,7 +33,7 @@ export const AboutConsole = () => {
           <div className="comment__element--comment">
             <h5>
               An application to monitor incoming posts containing mentions of
-              animal consumption with facts about their sentience and personhood
+              animal consumption and auto respond with facts about their sentience and personhood
             </h5>
           </div>
         </div>

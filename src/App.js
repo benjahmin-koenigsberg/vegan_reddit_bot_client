@@ -7,6 +7,7 @@ import Console from "./components/Console/Console";
 import { AboutConsole } from "./components/AboutConsole/AboutConsole";
 import { BotConsole } from "./components/BotConsole/BotConsole";
 import { io } from "socket.io-client";
+import ScrollingText from "./components/ScrollingText/ScrollingText";
 // import axios from "axios";
 const socket = io(process.env.REACT_APP_SERVER);
 
@@ -30,6 +31,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
+      <ScrollingText />
       <Routes>
         <Route path="/" element={<Console posts={posts} />} />
         <Route path="/comments" element={<BotConsole />} />

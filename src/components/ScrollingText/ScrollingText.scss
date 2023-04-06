@@ -1,0 +1,30 @@
+
+.scroll-container {
+border: .1rem solid black;
+//   border-radius: 5px;
+  overflow: hidden;
+}
+
+.scroll-text {
+  /* animation properties */
+  transform: translateX(100%);
+  animation: my-animation 20s linear infinite;
+  font-size: 1.25rem;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+
+@keyframes my-animation {
+  from {
+
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
