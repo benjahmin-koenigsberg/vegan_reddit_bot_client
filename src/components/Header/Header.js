@@ -13,10 +13,7 @@ export const Header = () => {
 
   const navigation = useNavigate();
   const navigateHome = () =>  {
-      axios
-        .get("http://localhost:8001/")
-        .then((res) => console.log(res))
-        .catch((err) => console.log(err));
+
 navigation("/")  }
   const navigateComments = () =>  {  navigation("/comments");}
   const navigateAbout = () => {   navigation("/about");}
