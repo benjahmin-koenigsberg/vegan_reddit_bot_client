@@ -15,7 +15,7 @@ const [comments, setComments] = useState([]);
 
  useEffect(() => {
    axios
-     .get("https://vegan-reddit-troll-client.vercel.app/com")
+     .get("https://vegan-reddit-troll-server.vercel.app/com")
      .then((res) => {
        setComments(res.data);
        console.log(res.data);
@@ -27,7 +27,7 @@ const [comments, setComments] = useState([]);
     <>
     <ScrollingTextComments />
       <div className="console">
-        {comments.map((comment) => {
+        { comments.map((comment) => {
           return <BotComments comment={comment} />;
         })}
       </div>
