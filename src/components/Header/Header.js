@@ -13,6 +13,7 @@ export const Header = ( {posts, setPosts} ) => {
 
   const navigation = useNavigate();
   const navigateHome = () =>  {
+    console.log(posts)
     setPosts(posts)
   // axios
   //   .get("https://vegan-reddit-troll-server.vercel.app/")
@@ -22,7 +23,7 @@ export const Header = ( {posts, setPosts} ) => {
   //   })
   //   .catch((err) => console.log(err));
   navigation("/")  }
-  const navigateComments = () =>  {  navigation("/comments");}
+  const navigateComments = () =>  {navigation("/comments");}
   const navigateAbout = () => {   navigation("/about");}
 
   return (
