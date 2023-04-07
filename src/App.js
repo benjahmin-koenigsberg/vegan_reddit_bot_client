@@ -13,7 +13,7 @@ import { subs } from './assets/subs.js'
 
 function App() {
 
-  const [ posts, setPosts] = useState( [...subs] );
+  const [ posts, setPosts] = useState( subs );
 
   console.log(posts)
   //  axios

@@ -14,7 +14,7 @@ export const Header = ( {posts, setPosts} ) => {
   const navigation = useNavigate();
   const navigateHome = () =>  {
     console.log(posts)
-    setPosts(posts)
+    setPosts( [  ...posts.reverse(), ...posts ] );
   // axios
   //   .get("https://vegan-reddit-troll-server.vercel.app/")
   //   .then((res) => {

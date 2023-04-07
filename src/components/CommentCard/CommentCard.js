@@ -20,7 +20,7 @@ export const CommentCard = ( {post} ) => {
         </div>
         <div className="comment__container--labels">r/subreddit</div>
         <div className="comment__element--subreddit">
-          <h5>{post.author_fullname}</h5>
+          <h5>{post.subreddit}</h5>
         </div>
         {/* <div className="comment__container--labels">post author</div>
           <div className="comment__element--author">
