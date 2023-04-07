@@ -8,18 +8,20 @@ import { AboutConsole } from "./components/AboutConsole/AboutConsole";
 import BotConsole from "./components/BotConsole/BotConsole";
 // import { io } from "socket.io-client";
 import axios from "axios";
+import { subs } from './assets/subs.js'
 // const socket = io(process.env.REACT_APP_SERVER);
 
 function App() {
 
-  const [posts, setPosts] = useState([]);
+  const [ posts, setPosts] = useState([...subs]);
 
-   axios
-     .get("https://vegan-reddit-troll-server.vercel.app/")
-     .then( (res) => {
-      console.log(res.data)
-       setPosts( [...res.data] );
-     }).catch(err => console.log(err))
+  console.log(posts)
+  //  axios
+  //    .get("https://vegan-reddit-troll-server.vercel.app/")
+  //    .then( (res) => {
+  //     console.log(res.data)
+  //      setPosts( [...res.data] );
+  //    }).catch(err => console.log(err))
 
   // useEffect(() => {
   //   socket.on("stream", (item) => {

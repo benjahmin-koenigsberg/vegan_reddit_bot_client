@@ -7,18 +7,20 @@ import downsIcon from "../../assets/downs.jpeg";
 
 
 export const CommentCard = ( {post} ) => {
+
   console.log(post)
+
   return (
     // <Link to={comment.permalink}>
     <div className="commentCard__container">
       <div className="comment__container">
         <div className="comment__container--labels">post Title</div>
         <div className="comment__element--title">
-          <h5>{post.header_title}</h5>
+          <h5>{post.title}</h5>
         </div>
         <div className="comment__container--labels">r/subreddit</div>
         <div className="comment__element--subreddit">
-          <h5>{post.display_name_prefixed}</h5>
+          <h5>{post.author_fullname}</h5>
         </div>
         {/* <div className="comment__container--labels">post author</div>
           <div className="comment__element--author">
@@ -40,7 +42,7 @@ export const CommentCard = ( {post} ) => {
           </div> */}
         <div className="comment__container--labels">post content</div>
         <div className="comment__element--comment">
-          <h6>{post?.submit_text}</h6>
+          <h6>{post?.selftext}</h6>
         </div>
       </div>
     </div>
