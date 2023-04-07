@@ -12,8 +12,6 @@ import axios from "axios";
 
 function App() {
 
-  document.title = "Vegan Reddit Bot";
-
   const [posts, setPosts] = useState([]);
 
    axios
