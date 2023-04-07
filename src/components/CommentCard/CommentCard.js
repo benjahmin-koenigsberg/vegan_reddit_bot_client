@@ -7,6 +7,7 @@ import downsIcon from "../../assets/downs.jpeg";
 
 
 export const CommentCard = ( {post} ) => {
+  console.log(post)
   return (
     // <Link to={comment.permalink}>
     <div className="commentCard__container">
