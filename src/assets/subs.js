@@ -15,12 +15,12 @@ selftext : "Hey guys my brother just toasted some tomatoes in my carbon steel ho
 },
 {
 title : "I learned a good way on how to make pizza dough",
-author_fullname : t2_7b6uzyib1,
+author_fullname : 't2_7b6uzyib1',
 selftext : "First I took two cups of water and put them in a bowel then adding half a cup of sugar and pouring a single packet of yeast in there because I like my yeast how I like my women, alive and breathing.  Then I put in 5 scoops of bread flower and a little bit of olive oil. then I kept stirring the dough while putting in flower so it isn't sticky. then I put it in the fridge all day and made pizza with it."
 },
 {
 title : "Any good zesting tips?",
-author_fullname : t2_juz44reh,
+author_fullname : 't2_juz44reh',
 selftext : "I need lime juice and lime zest… I got a little too ahead of myself, and I now have two un-zested lime halves. Any good tips for getting some zest? Microplane or something else. I did already juice the lime so the halves are not very sturdy. Know anything clever?"
 },
 {
