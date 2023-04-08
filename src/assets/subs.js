@@ -1,5 +1,119 @@
 export const subs = [
   {
+    title: "Hot take/advice to Qorantos",
+    subreddit: "r/Destiny",
+    selftext:
+      "The character is funny and you seem to be pretty smart and adept at working things into conversations but I feel like you need to learn to have an off switch and be chill with serious and honest demeanor with normal mic and pepper in being wild and unhinged. Otherwise the character and memes get played out quickly.",
+  },
+  {
+    title: "Hello guys, help?",
+    subreddit: "r/poland",
+    selftext:
+      "I’m brazilian and i’ve just won a “yoghurt and strawberry” chocolate by Terravita as a gift, as it is a very special gift my girlfriend tells me to eat it but i wanted to not eat it and keep it as a souvenir, but the question is, is it good? is it worth open it and eat?",
+  },
+  {
+    title:
+      "Walking in Winter in 4K | ULTRA REALISTIC DEMO in UNREAL ENGINE 5.1 RTX 4090",
+    subreddit: "r/FeatureAnimation",
+    selftext: "Hope I can use unreal in feature production someday",
+  },
+  {
+    title: "Why don’t I see the power shot replay?",
+    subreddit: "r/FIFA",
+    selftext:
+      "I bought fifa 23 in the Easter sale on ps4 and I’ve seen other people get replays that shows the speed of their shot etc, but I haven’t seen it yet? Is their something I’m missing?",
+  },
+  {
+    title:
+      "I overheard a conversation about how having a new president every 4 years doesn't work anymore. What do you all think?",
+    subreddit: "r/ask",
+    selftext:
+      "With all the political crazyness going on I'm not sure what to think.",
+  },
+  {
+    title: "My boys 💕💕",
+    subreddit: "r/BeardedDragons",
+    selftext: "Diesel and my son",
+  },
+  {
+    title: "How long until I can pass?",
+    subreddit: "r/Drugtests",
+    selftext:
+      "Hey guys, I 18 year old 130 lb female have been taking a few hits of my dab pen every night for the past 5 months. I stopped about a week ago. How long do you think until I can pass a test as I am getting a new job in about 2 months.",
+  },
+  {
+    title: "Harry Styles Chicago StubHub Coupon Code",
+    subreddit: "r/DealsCliff",
+    selftext:
+      "Follow this link for [**Harry Styles Chicago StubHub Coupon Code**](https://tiny.one/2p9fv422). Access the latest deals and promotions by visiting the link, featuring a constantly updated list of coupons, promo codes, and discounts.",
+  },
+  {
+    title: "A majority of league players are mentally ill",
+    subreddit: "r/summonerschool",
+    selftext:
+      "Like the title says— I basically got on league for the first time this week and I don’t play too often unless I’m playing with friends. So I get on a game today w my friends and I’m playing Kaisa top (disgusting I know) and the enemy chogath starts flaming for my pick and the entire enemy team trash talks me and camps my lane but I find this really amusing bcz I can tell chogath was already mad just because I picked an adc top, and yeah I understand I’m playing the game badly at this point but I don’t understand why league players will flame someone if they’re doing bad because it’s literally just a game and they act like you don’t know that you’re doing terrible, like no shit I’m doing bad but if I’m having fun and not PURPOSEFULLY inting then I’ll play however I want aslong as I enjoy myself. I just don’t understand how people forget that league is a video game because a majority of the players are really toxic and they think everyone takes it just as serious as they do. it’s also just crazy to me how many mentally ill and just straight up bad people there are playing this game. I mean you cant tell me most of the players aren’t depressed or have some sort of addiction to the game to be projecting so hard to random ass people online— nothing new, just a tangent because it’s just crazy to me how very obviously toxic the community is and it makes the game quite hard to enjoy sometimes",
+  },
+  {
+    title: "What would you make with lamb sausage?",
+    subreddit: "r/Cooking",
+    selftext:
+      "I have a few boxes of these lamb sausages and I don't know what to do with them. Link in the comments. Any ideas?",
+  },
+  {
+    title: "A chocolate display for Easter.",
+    subreddit: "r/FoodPorn",
+    selftext:
+      "A completely unguarded chocolate display at a hotel. Very tempting to take a piece.",
+  },
+  {
+    title: "What rules over our experience?",
+    subreddit: "r/awakened",
+    selftext:
+      "*I believe that sometimes it is important to trace comparisons between different fields in order to invite different people into the conversation.  Hopefully this makes sense * The medical field has been redefining what is the true command center of the body. Throughout modern times it has been argued that it is the brain that guided the body through the thought process and the peripheral nervous system. Lately, it was discovered that the gut and the central nervous system created a feedback loop that auto regulates each other through the interaction between the pituitary gland and the micro biome. It is also known that the sympathetic and parasympathetic nervous systems are regulated alongside the cardio-respiratory response, allowing consciousness to modulate the pace at which we breath and the emotional response of the body. This scientific based knowledge now offers some insight as to why it why there’s fluttering hearts and visceral responses. The central and peripheral nerviosa systems are continually processing and storing information from external experiences. At the same time, the brain has the ability to modulate the responses through the thought process, the mind is consciously experiencing itself at all times. If the experience is a constant feedback loop then it is possible to find the the courage to change the thought process on the experience of the consciousness. There are two pathways in which spirituality deals with this sense of awareness. The most common path is through existential nihilism that is easily explained by the law of attraction. The LAO allows people to go in  search for their life purpose and you will attract that purpose (often described as value) into your life. The less common pathway is metaphysical nihilism, in which it is believed that for every object that exists, there might have been a world where it doesn’t exist. The LOA states that by believing that you exist in the reality where you have the things that you want, they will align with you. What separates us from experiencing the life we want? just one thought?",
+  },
+  {
+    title: "French fries",
+    subreddit: "r/Cooking",
+    selftext:
+      "do you guys have any special way to do french fries?I normally slice the potato,i don't peel them and i rub them with basil,salt and olive oil before oven( i also put on the fries something called ''5 spices'')",
+  },
+  {
+    title:
+      "[Homemade] One of my favourite dishes I made tonight for maybe the seventh time. Now I’m perfecting it. Stuffed Capsicum (Punjene paprike)",
+    subreddit: "r/food",
+    selftext:
+      "Tip: if you want a healthier version, use wild rice. I love it with almost any rice. My favourite would be long grain. I’ve grown up with this recipe from my grandmother. Very much appreciated when it’s made correctly. And I’m so glad I did so tonight. My dad allowed me to make it by myself. I used gloves to make it this time as I’ve been weary about cleanliness. This and cabbage rolls are some of my favourites. Currently writing up a recipe journal. I’m thinking I added too much ground black pepper, but then I’m also eating this with some guindilla peppers.",
+  },
+  {
+    title: "[Homemade] Salmon Dinner",
+    subreddit: "r/food",
+    selftext: "First time pan frying. Was yummy.",
+  },
+  {
+    title: "Accidentally got beans in outer pot in instant pot",
+    subreddit: "r/Cooking",
+    selftext:
+      "I accidentally got some beans in the heat plate section of the instant pot. I was supposed to add it to the inner pot Anyway I shook out most of it but 2-3 are still in. Is it still safe to use? I unscrewed the button thing to see if I could get it out but that part is the circuit and the heat plate is one layer deeper",
+  },
+  {
+    title: "Gluten Free waffles - How do I cook them through?",
+    subreddit: "r/Cooking",
+    selftext:
+      "They always come out gummy. I had this issue with pancakes before I just turned the heat down and cooked them longer, but it seems like a waffle iron burns it before the middle is cooked how I want Is the perfect gluten free waffle a possibility or are my expectations just unrealistic?",
+  },
+  {
+    title: "Those metal non-stick pans that don't have a teflon coating?",
+    subreddit: "r/Cooking",
+    selftext:
+      "I don't even know what to call them to Google them.  You see people using them on Youtube and in TikTok videos.  They are metal, usually have a dimpled look to them, and are supposed to be non-stick, but they don't have a teflon coating or anything on them (and people always seem to be using metal utensils on them) Can anybody point me to what those are called?  And maybe some suggestions of a reasonably priced brand?",
+  },
+  {
+    title: "How to cook 500g rolled lamb breast?",
+    subreddit: "r/Cooking",
+    selftext:
+      "I’ve googled this but there’s so many different methods for various different weights that I’m not sure which option is best. I was planning on browning the lamb in a frying pan then roasting it in a seasoned olive oil mix at 200°C fan but I’m not sure how long for. Any suggestions?",
+  },
+  {
     title:
       "[Homemade] One of my favourite dishes I made tonight for maybe the seventh time. Now I’m perfecting it. Stuffed Capsicum (Punjene paprike)",
     subreddit: "r/food",
