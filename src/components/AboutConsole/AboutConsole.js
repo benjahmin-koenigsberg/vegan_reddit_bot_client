@@ -11,9 +11,19 @@ export const AboutConsole = () => {
           <div className="comment__element--comment">
             <h5>
               The vegan reddit troll bot is an application to monitor incoming
-              posts for specified keywords about animal
-              consumption to auto respond with comments about non human animal
-              sentience and personhood
+              posts for specified keywords about animal consumption to auto
+              respond with comments about non human animal sentience and
+              personhood
+            </h5>
+          </div>
+        </div>
+        <div className="comment__container">
+          <div className="comment__container--labels">Instructions</div>
+          <div className="comment__element--comment">
+            <h5>
+              Click on the reddit logo to see posts the pot has scanned
+              <br />
+              Click on the messages icon to see replies the bot has made
             </h5>
           </div>
         </div>

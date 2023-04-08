@@ -39,9 +39,9 @@ const [ posts, setPosts] = useState( subs );
     <BrowserRouter>
       <Header  setPosts={setPosts} posts={posts} />
       <Routes>
-        <Route path="/" element={<Console posts={posts} />} />
+        <Route path="/posts" element={<Console posts={posts} />} />
         <Route path="/comments" element={<BotConsole />} />
-        <Route path="/about" element={<AboutConsole />} />
+        <Route path="/" element={<AboutConsole />} />
       </Routes>
     </BrowserRouter>
   );
