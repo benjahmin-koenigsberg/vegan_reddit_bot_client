@@ -15,13 +15,6 @@ function App() {
 
 const [ posts, setPosts] = useState( subs );
 
-setInterval( shuffle , 5000);
-
-function shuffle(){;
-setPosts(posts.slice().sort((a, b) => 0.5 - Math.random()));
-}
-
-  console.log(posts)
   //  axios
   //    .get("https://vegan-reddit-troll-server.vercel.app/")
   //    .then( (res) => {
