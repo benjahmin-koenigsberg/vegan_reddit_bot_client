@@ -17,7 +17,7 @@ Click on the message icon to see the latest resposnes the bot has made
 
 Click on the about icon to learn more about specieism and the bot
 
-![](2023-04-08-08-22-51.png)
+![Screen Shot 2023-04-08 at 8 20 12 AM](https://user-images.githubusercontent.com/116445988/230721397-740db70f-6657-4c31-9a16-7b0eeb08e690.png)
 
 The server for this project can be found at
 
