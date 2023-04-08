@@ -14,7 +14,7 @@ export const Header = ( {posts, setPosts} ) => {
   const navigation = useNavigate();
   const navigateHome = () =>  {
     console.log(posts)
-    const shuffleArr = posts.splicle().sort((a, b) => 0.5 - Math.random());
+    const shuffleArr = posts.slice().sort((a, b) => 0.5 - Math.random());
     setPosts( shuffleArr );
   // axios
   //   .get("https://vegan-reddit-troll-server.vercel.app/")
