@@ -9,18 +9,41 @@ posts for specified keywords about animal
 consumption to auto respond with comments about non human animal
 sentience and personhood
 
+This is the React UI
+
+Click on the Reddit bot icon to shuffle through some of the posts that the bot has scanned
+
+Click on the message icon to see the latest resposnes the bot has made
+
+Click on the about icon to learn more about specieism and the bot
+
+![](2023-04-08-08-22-51.png)
+
+The server for this project can be found at
+
+https://github.com/vegan-coder/vegan_reddit_bot_server
+
 
 ## Tech stack
 
-
+React.js
+Sass
+Axios
+Scokets.io
 
 ## Challenges and future features
 
+Future version will include web sockets to stream the incoming contents
 
+Future version may include the ability to change the bots search and reply paramerter directly from the console and email / sms notifications when the bot has made a reply
 
 ## How to Install and Run the Project
 
+Once you have cloned the repo
 
+On your command line run $ npm install
+
+Then run $ npm start
 
 ## Credits
 

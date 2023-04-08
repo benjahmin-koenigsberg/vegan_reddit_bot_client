@@ -1,5 +1,35 @@
 export const subs = [
   {
+    title: "Stitches in mouth - what to eat?",
+    subreddit: "r/Cooking",
+    selftext:
+      "Hello everyone! I've had a small surgery done and I have three stitches in my mouth, on the gum in the front lower half. I've been eating liquids, smashed stuff, or very soft cheese like ricotta, but I need ideas for dinner tonight! It's Saturday so I wanted something fancier and/or tastier. Any idea? It needs to be smashed or very soft (no mash potatoes as I'm going to have them for Easter tomorrow). Thank you!",
+  },
+  {
+    title: "Trying to figure out if this is a migraine or sensory thing",
+    subreddit: "r/migraine",
+    selftext:
+      "I have sensory issues but they have never been this bad before. My migraines have come back around this time worse than ever with a bunch of new symptoms so I think it might be from that. I feel pain from everything that touches me. Like I am being tickled to the point of pain. I am in such a bad mood from this and so easily frustrated I feel kind of bad. I had to push my cat away when she was rubbing on me and trying to cuddle because it was literally hurting me. Is this a migraine thing and an old health problem? Or just some new horribly frustrating health problem I have to deal with now.",
+  },
+  {
+    title: "Jason leaving",
+    subreddit: "r/TakeThat",
+    selftext:
+      "I know this has probably been discussed before but why do you think Jason left the band? I know the statement mentions he didn’t want to commit to another album and tour. But watching The Circus tour right now and he seems to have so much fun dancing, performing and interacting with the fans. Same with the Progress tour. Do you think maybe it was because all of the other members were married and with kids and he didn’t have that? I often think that. He was getting older without a family. But I also think that the other members were able to maintain a balanced personal life / band life. Why wouldn’t he be able? *Sigh*. I just miss him and I’ve never seen them in concert, you know, in person, and I think that’s gonna be my biggest regret in life. That I never planned a trip to go see them in Europe.",
+  },
+  {
+    title: "Summer Jobs",
+    subreddit: "r/Eau_Claire",
+    selftext:
+      "I own some group homes in town and am in need of some additional summer help! Please DM me if you are interested 😊",
+  },
+  {
+    title: "BDD Claim + Pertinent Records Required - All or Specific",
+    subreddit: "r/VeteransBenefits",
+    selftext:
+      "I'm currently on active duty and just received my medical records. I will be reaching out to a VSO on Monday. My question is, for a BDD Claim, can I pick and choose what Encounters/Diagnosis etc etc, I provide as evidence for a specific claim, or regardless of the claim, would I need to give the ENTIRE record, even if it would include negative doctor notes/comments? Basically, can I pick and choose?",
+  },
+  {
     title: "Hot take/advice to Qorantos",
     subreddit: "r/Destiny",
     selftext:
@@ -147,19 +177,19 @@ export const subs = [
   },
   {
     title: "Need inspiration for quick recipes",
-    subreddit: "[object Object]",
+    subreddit: "cooking",
     selftext:
       "Do you have any recipes that are quick and don't contain (or contain very few) perishable ingredients? I'm looking to fill my pantry and fridge so that I always have some options to cook a quick meal, but there's no pressure to use the ingredients quickly. For example, dried mushrooms, pasteurized cream and dry pasta gets you a nice creamy mushroom pasta and the only perishable ingredient is the cream (that can be stored in the fridge for months). Ingredients can be frozen too if it's not necessary to thaw them. For example, frozen fries can be cooked in the oven in 20 mins without thawing. Thank you! I hope you get an idea of what I'm looking for, sorry if it's not clear, I'm not a Native English speaker.",
   },
   {
     title: "Are skinless chicken burgers just as healthy as chicken breasts?",
-    subreddit: "[object Object]",
+    subreddit: "cooking",
     selftext:
       "Sorry for the dumb question I'm not good with food. Just wondering if anyone here knows if skinless chicken burgers is the same &or just as healthy as chicken breasts? It's just so much easier for me to cook these on my griddle then it is a chicken breast, also there less chewy which I prefer",
   },
   {
     title: "Wagyu. Is it just a gimmick?",
-    subreddit: "[object Object]",
+    subreddit: "cooking",
     selftext: ` "I see it everywhere now.  At the butcher for $99 a pound. At Costco ffs. I ate at a nice steakhouse the other night that had "American dry-aged Wagyu ribeye" on the menu for $140. Server talked my ear off about how it came from some magical organic cattle ranch in Idaho and was sole sourced from there.  This was in Houston mind you,  where you can still get an amazing ribeye for $40-$50. I politely declined the sales pitch and ordered a normal,  non-Wagyu ribeye and it was fantastic. I thought Wagyu comes from Japan and they literally give beer to the cows and give them massages every day. "American Wagyu Ribeye" sounds like a marketing gimmick to me. So for those of you who have experienced this expensive luxurious delicacy, is it worth it?" `,
   },
   {
@@ -174,7 +204,7 @@ export const subs = [
   },
   {
     title: "Whole wheat banana pancakes…",
-    subreddit: "[object Object]",
+    subreddit: "cooking",
     selftext: "…with caramelized walnuts and softly whipped cream.",
   },
 
