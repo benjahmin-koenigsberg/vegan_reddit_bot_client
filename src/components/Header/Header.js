@@ -23,9 +23,9 @@ export const Header = ( {posts, setPosts} ) => {
   //     setPosts(res.data);
   //   })
   //   .catch((err) => console.log(err));
-  navigation("/")  }
+  navigation("/posts")  }
   const navigateComments = () =>  {navigation("/comments");}
-  const navigateAbout = () => {   navigation("/about");}
+  const navigateAbout = () => {   navigation("/");}
 
   return (
 
