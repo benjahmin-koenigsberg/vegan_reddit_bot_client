@@ -1,5 +1,32 @@
 export const subs = [
   {
+     title : "What’s your favorite cooking spice/seasoning?",
+     subreddit : "r/Cooking",
+     selftext : "I’m sure it’s been asked before, but lay it on me. What are your go to’s when you’re making a dish? Representing smoked paprika and granulated chicken bullion here."},
+  {
+     title : "What are some foods/meals that take longer to eat than they do to make?",
+     subreddit : "r/Cooking",
+     selftext : "For instance 2 cans of soup take approx. 3 minutes to heat in the microwave, but take approx. 6 minutes to eat. fruits/seeds/nuts are another example. they take longer to eat than they do to be washed/de-shelled. What are some other foods/meals that similarly take longer to eat than they do to make?"},
+  {
+     title : "[Homemade] Fried Deviled Eggs",
+     subreddit : "r/food",
+     selftext : "These were made with a homemade garlic mayo, spicy brown mustard, and the filling has sweet Hungarian paprika, horseradish, thyme, salt, pepper, and cayenne. Twice fried in a wok in avocado oil and left on a cooling rack to drain."},
+  {
+     title : "Marinating mushrooms to cook later, should I store room temp or fridge?",
+     subreddit : "r/Cooking",
+     selftext : "Title, I'll be cooking them in about 90 mins. They're currently in the fridge, just in case. Marinade includes basalmic, steak sauce, olive oil, minced garlic, and spices. Thank you!"},
+  {
+    title: "Is it too late to start a pot roast?",
+    subreddit: "r/Cooking",
+    selftext: "It’s about to be 12pm here. I wanted to do a pot roast today but I worked all day yesterday, and overslept for when I originally planned on getting up today. If I buy the ingredients now and put it in the crock pot would it be done by around 7 or so? Maybe if I put it on medium instead of low?",
+  },
+  {
+    title: "Smooth pan sauce",
+    subreddit: "r/Cooking",
+    selftext:
+      "I want to make pan sauce, but I don't like the texture of minced shallots or garlic at all. Should I finely grate/blend the shallots and garlic, or would it be better to skip them altogether?",
+  },
+  {
     title: "Eggs! [homemade]",
     subreddit: "r/food",
     selftext: "Poached eggs, tomatoes, toast, asparagus",

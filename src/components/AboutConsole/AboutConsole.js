@@ -21,9 +21,9 @@ export const AboutConsole = () => {
           <div className="comment__container--labels">Instructions</div>
           <div className="comment__element--comment">
             <h5>
-              Click on the reddit logo to see posts the pot has scanned
+              Click on the reddit logo to shuffle thru posts the pot has scanned
               <br />
-              Click on the messages icon to see replies the bot has made
+              Click on the message icon to see the bot's recent replies
             </h5>
           </div>
         </div>
