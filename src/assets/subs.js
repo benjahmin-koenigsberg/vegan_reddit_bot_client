@@ -1,24 +1,101 @@
 export const subs = [
   {
-     title : "What’s your favorite cooking spice/seasoning?",
-     subreddit : "r/Cooking",
-     selftext : "I’m sure it’s been asked before, but lay it on me. What are your go to’s when you’re making a dish? Representing smoked paprika and granulated chicken bullion here."},
+    title: "[homemade] Roast Lamb Shoulder",
+    subreddit: "r/food",
+    selftext:
+      "Lamb marinated for 24 hours in lemon, garlic, rosemary, Dijon mustard and pepper. Roasted low and slow over potatoes. Rich red wine gravy. This was delicious",
+  },
   {
-     title : "What are some foods/meals that take longer to eat than they do to make?",
-     subreddit : "r/Cooking",
-     selftext : "For instance 2 cans of soup take approx. 3 minutes to heat in the microwave, but take approx. 6 minutes to eat. fruits/seeds/nuts are another example. they take longer to eat than they do to be washed/de-shelled. What are some other foods/meals that similarly take longer to eat than they do to make?"},
+    title: "Resses peanut butter recipe",
+    subreddit: "r/Cooking",
+    selftext:
+      "Hello people of reddit, I'm wondering if anyone knows how to make the peanut butter inside of resses peanut butter cups? I'm not talking about the chocolate, just the peanut butter by itself it's good and the texture is amazing. so yeah simple question.",
+  },
   {
-     title : "[Homemade] Fried Deviled Eggs",
-     subreddit : "r/food",
-     selftext : "These were made with a homemade garlic mayo, spicy brown mustard, and the filling has sweet Hungarian paprika, horseradish, thyme, salt, pepper, and cayenne. Twice fried in a wok in avocado oil and left on a cooling rack to drain."},
+    title: "Is my pork roast bad?",
+    subreddit: "r/Cooking",
+    selftext:
+      "So I was going to throw a pork roast into my slow cooker but the rost has some... Interesting colouration on the inside and outside. There's dark/reddish gray areas that extend into the inside of the roast, as well as gray areas on much of the surface. It was frozen for a couple months prior, and put it in the fridge to defrost for a few days prior to now (would probably have finished defrosting 2 days ago, but I got busy and couldn't cook it). It doesn't smell like ammonia or anything, though areas near fat or bone smell vaguely like wet dog smell... It is seriously sketching me out as I've had bad food poisoning before and am in the middle of exams (so that would be disastrous). But the idea of chucking like 2kg of meat into the trash is not something I'd want to do unless I'm certain that it's off. I'll link some photos on imgur, though my camera is not great and the saturation makes the color differences in the meat look a lot less pronounced. https://imgur.com/a/2kvb10M",
+  },
   {
-     title : "Marinating mushrooms to cook later, should I store room temp or fridge?",
-     subreddit : "r/Cooking",
-     selftext : "Title, I'll be cooking them in about 90 mins. They're currently in the fridge, just in case. Marinade includes basalmic, steak sauce, olive oil, minced garlic, and spices. Thank you!"},
+    title: "How long does it take to infuse fat with flavor?",
+    subreddit: "r/Cooking",
+    selftext:
+      "I'd like to perfect my.mazhed potatoes. One method I have seen of making mashed potatoes includes simmering heavy cream with garlic, rosemary, and thyme so that the cream takes on the flavor of those ingredients. If I do this, how long does it take for the cream to take on the flavor of the garlic, rosemary, and thyme?",
+  },
   {
     title: "Is it too late to start a pot roast?",
     subreddit: "r/Cooking",
-    selftext: "It’s about to be 12pm here. I wanted to do a pot roast today but I worked all day yesterday, and overslept for when I originally planned on getting up today. If I buy the ingredients now and put it in the crock pot would it be done by around 7 or so? Maybe if I put it on medium instead of low?",
+    selftext:
+      "It’s about to be 12pm here. I wanted to do a pot roast today but I worked all day yesterday, and overslept for when I originally planned on getting up today. If I buy the ingredients now and put it in the crock pot would it be done by around 7 or so? Maybe if I put it on medium instead of low?",
+  },
+  {
+    title: "What’s your favorite cooking spice/seasoning?",
+    subreddit: "r/Cooking",
+    selftext:
+      "I’m sure it’s been asked before, but lay it on me. What are your go to’s when you’re making a dish? Representing smoked paprika and granulated chicken bullion here.",
+  },
+  {
+    title: "Anyone else grow up with questionable food safety practices?",
+    subreddit: "r/Cooking",
+    selftext:
+      "I see a lot of questions on here about food safety! Growing up, my parents cooked every day and seemingly never thought that hard about food safety lol. They would joke that it helped to make a strong stomach. Leftover vegetables, meat, and rice would sit on the counter overnight and then get reheated and eaten the next day. Defrosting meat would be at room temperature to be cooked that day (unless it was a turkey or something big). Storing leftovers in the fridge was an option but definitely not required. None of us ever got sick, maybe helped by the fact we lived in a dry cold climate and bugs weren't a problem? Just curious if anyone else grew up like this or still does this. (Not that food safety rules aren't legit, but hey we all choose to break the rules sometimes!) I don't because I cook for my partner, but I'm definitely more lax when I cook for myself.",
+  },
+  {
+    title: "Squeezing onions?",
+    subreddit: "r/Cooking",
+    selftext:
+      "Does anyone else squeeze onions/know where this idea came from? My family has been doing this for as long as I can remember (slice/dice how ever you want, salt the onion, let it sit for a minute and then squeeze them) to reduce the sharpness of the flavor. Then put it on a sandwich, salad, tuna salad, or something else that you don’t cook. Is this just a totally weird thing that a relative came up with or is this a thing for others too? Thanks!",
+  },
+  {
+    title:
+      "[homemade] I made 2 charcuterie boards for Easter- Ham roll ups (thinly sliced ham with cream cheese & green onions),grapes, sliced baguette with olive oil & garlic,crackers,cucumbers, pickled asparagus,olives, caprese salad,sliced cheddar,colby, &pepper jack cheese, and Starburst jelly beans",
+    subreddit: "r/food",
+    selftext: "",
+  },
+  {
+    title: "What are your go-to road trip meals?",
+    subreddit: "r/Cooking",
+    selftext:
+      "Looking for suggestions of recipes that are easy to make and keep well for long road trips, especially when you are traveling through areas with limited food options. A friend of mine used to make Spanish-style omelette in the morning, cut into wedges, and keep in aluminum foil to eat later that day.",
+  },
+  {
+    title: "Best uses for a dozen fresh eggs?",
+    subreddit: "r/Cooking",
+    selftext:
+      "Some friends have chickens and gifted us a dozen of their eggs. Wondering if carbonara is a good idea or should I do something that really showcases the eggs (omelettes, frittata, etc.)? Also, I think it would be a waste to use them in actual pasta, but correct me if I'm wrong.",
+  },
+  {
+    title: "What’s your favorite cooking spice/seasoning?",
+    subreddit: "r/Cooking",
+    selftext:
+      "I’m sure it’s been asked before, but lay it on me. What are your go to’s when you’re making a dish? Representing smoked paprika and granulated chicken bullion here.",
+  },
+  {
+    title:
+      "What are some foods/meals that take longer to eat than they do to make?",
+    subreddit: "r/Cooking",
+    selftext:
+      "For instance 2 cans of soup take approx. 3 minutes to heat in the microwave, but take approx. 6 minutes to eat. fruits/seeds/nuts are another example. they take longer to eat than they do to be washed/de-shelled. What are some other foods/meals that similarly take longer to eat than they do to make?",
+  },
+  {
+    title: "[Homemade] Fried Deviled Eggs",
+    subreddit: "r/food",
+    selftext:
+      "These were made with a homemade garlic mayo, spicy brown mustard, and the filling has sweet Hungarian paprika, horseradish, thyme, salt, pepper, and cayenne. Twice fried in a wok in avocado oil and left on a cooling rack to drain.",
+  },
+  {
+    title:
+      "Marinating mushrooms to cook later, should I store room temp or fridge?",
+    subreddit: "r/Cooking",
+    selftext:
+      "Title, I'll be cooking them in about 90 mins. They're currently in the fridge, just in case. Marinade includes basalmic, steak sauce, olive oil, minced garlic, and spices. Thank you!",
+  },
+  {
+    title: "Is it too late to start a pot roast?",
+    subreddit: "r/Cooking",
+    selftext:
+      "It’s about to be 12pm here. I wanted to do a pot roast today but I worked all day yesterday, and overslept for when I originally planned on getting up today. If I buy the ingredients now and put it in the crock pot would it be done by around 7 or so? Maybe if I put it on medium instead of low?",
   },
   {
     title: "Smooth pan sauce",
