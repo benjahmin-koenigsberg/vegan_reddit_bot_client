@@ -1,88 +1,70 @@
 export const subs = [
   {
+    title: "Eggs! [homemade]",
+    subreddit: "r/food",
+    selftext: "Poached eggs, tomatoes, toast, asparagus",
+  },
+  {
+    title: "Does this gammon steak from chilled look cooked to you",
+    subreddit: "r/Cooking",
+    selftext:
+      "https://imgur.io/kX2DgBm?r Pan fried and seared at number 4 and 3 on the cooker so med heat for twenty mins. It's probably overcooked but I'm not sure about the middle. It's not the most conventional way to cook gammon it's more like fried, seared, some would even say boiled. But I just wanted know if it seems cooked enoigh asi already ate half tasted fine",
+  },
+  {
+    title: "[Homemade] Pineapple Glazed Ham",
+    subreddit: "r/food",
+    selftext:
+      "This is a Cook’s pre-cut ham. Just wanted a bit of tangy-sweetness to it so I added Pineapple slices, cranberries, and a little bit of cane sugar rub. Last 10 minutes of cooking (broiling) glaze was poured.",
+  },
+  {
+    title:
+      "[Homemade] Swedish meatballs with pressgurka, gräddsås and lingonsylt.",
+    subreddit: "r/food",
+    selftext:
+      "Easter made me homesick, so I made the most authentic recipe possible at the time. Mash, pickled cucumbers and cream sauce were all made from scratch. I had to substitute blackcurrant jelly for jam, but the end result was identical. I couldn't get the proper spice mix delivered, so I settled for IKEA's meatballs (which are identical to Mamma Scan's, my go-to choice of frozen balls at home.) The lingonberries were also bought at IKEA, because they're close enough to hit the spot.",
+  },
+  {
+    title: "How do I cook an organ doner?",
+    subreddit: "r/Cooking",
+    selftext:
+      "With the cost of food being so high I am looking for more affordable alternatives to pricey meatstuffs to feed my growing family (I have a wife, an adopted kid, a boy child and a dog). Yesterday I noticed that the butchery display case featured a lot of discount giblets, gizzards and other such glands. Lungs, thymus, even a teste. I am thinking of cooking up a exotic Middle Eastern feast with all these organ meats but the problem is, I have no idea how to cook ‘em all up. Perhaps some chefs specializing in the cuisine of the Levant and Anatolia could help me figure out how to cook an organ doner. Thanks",
+  },
+  {
+    title: "Lamb chops",
+    subreddit: "r/Cooking",
+    selftext:
+      "I picked up two racks of lamb chops, I have never cooked lamb before and was wondering what a simple and delicious recipe for them would be.",
+  },
+  {
+    title: "Help me find a certain recipe magazine please!!",
+    subreddit: "r/Cooking",
+    selftext:
+      "Hi!   Last month I found a recent cooking magazine that had southern fried catfish on the cover. I can’t remember the name and can’t find the mag now.  We loved the catfish hush puppy and coleslaw recipes in it. If anyone knows which mag this is please let me know.  I am trying to recreate them but I’m missing something.  Thank you!",
+  },
+  {
+    title: "How much time to marinade a pork tenderloin?",
+    subreddit: "r/Cooking",
+    selftext: "How long would be too long?",
+  },
+  {
+    title: "Pork Gyros",
+    subreddit: "r/Cooking",
+    selftext:
+      "This is the recipe I tried, though I halved it as it's just for my wife and I, left out the tomato as neither my wife or I care for them. They turned out fantastic! I would totally make this again. It's quite easy to make and would scale up (or down) easily depending on how many you're feeding.",
+  },
+  {
+    title: "Advice or reccomendations on whetsones",
+    subreddit: "r/Cooking",
+    selftext:
+      "I'm primarily a baker, so I don't have to use my knives very much.  However, they are in need of sharpening.  I want to get into whetstone sharpening, however I'm struggling to make a decision on which ones to get.  Anytime I read product reviews, something always seems strange.  For example, I've read some good reviews and articles about the Sharp Pebble stones.  However, when you search them all on Amazon, the listings seem very sketchy.  Many different companies, including Amazon Basics, use the exact same photo with their logo added on to the stone.  It looks like it's a generic stone from an unknown company, that other companies just slap their logo on and call it their own.  The prices vary wildly too.  Every review also says something like Good stone, but I would never use it on My Whustof/Global knives  My knives right now are rather cheap, but I want to make sure its a great stone, because I plan on investing in some Whustof or Global knives soon.   Does anyone have any good reccomendations from reputable brands?  Thanks!",
+  },
+  {
     title: "Stitches in mouth - what to eat?",
     subreddit: "r/Cooking",
     selftext:
       "Hello everyone! I've had a small surgery done and I have three stitches in my mouth, on the gum in the front lower half. I've been eating liquids, smashed stuff, or very soft cheese like ricotta, but I need ideas for dinner tonight! It's Saturday so I wanted something fancier and/or tastier. Any idea? It needs to be smashed or very soft (no mash potatoes as I'm going to have them for Easter tomorrow). Thank you!",
   },
-  {
-    title: "Trying to figure out if this is a migraine or sensory thing",
-    subreddit: "r/migraine",
-    selftext:
-      "I have sensory issues but they have never been this bad before. My migraines have come back around this time worse than ever with a bunch of new symptoms so I think it might be from that. I feel pain from everything that touches me. Like I am being tickled to the point of pain. I am in such a bad mood from this and so easily frustrated I feel kind of bad. I had to push my cat away when she was rubbing on me and trying to cuddle because it was literally hurting me. Is this a migraine thing and an old health problem? Or just some new horribly frustrating health problem I have to deal with now.",
-  },
-  {
-    title: "Jason leaving",
-    subreddit: "r/TakeThat",
-    selftext:
-      "I know this has probably been discussed before but why do you think Jason left the band? I know the statement mentions he didn’t want to commit to another album and tour. But watching The Circus tour right now and he seems to have so much fun dancing, performing and interacting with the fans. Same with the Progress tour. Do you think maybe it was because all of the other members were married and with kids and he didn’t have that? I often think that. He was getting older without a family. But I also think that the other members were able to maintain a balanced personal life / band life. Why wouldn’t he be able? *Sigh*. I just miss him and I’ve never seen them in concert, you know, in person, and I think that’s gonna be my biggest regret in life. That I never planned a trip to go see them in Europe.",
-  },
-  {
-    title: "Summer Jobs",
-    subreddit: "r/Eau_Claire",
-    selftext:
-      "I own some group homes in town and am in need of some additional summer help! Please DM me if you are interested 😊",
-  },
-  {
-    title: "BDD Claim + Pertinent Records Required - All or Specific",
-    subreddit: "r/VeteransBenefits",
-    selftext:
-      "I'm currently on active duty and just received my medical records. I will be reaching out to a VSO on Monday. My question is, for a BDD Claim, can I pick and choose what Encounters/Diagnosis etc etc, I provide as evidence for a specific claim, or regardless of the claim, would I need to give the ENTIRE record, even if it would include negative doctor notes/comments? Basically, can I pick and choose?",
-  },
-  {
-    title: "Hot take/advice to Qorantos",
-    subreddit: "r/Destiny",
-    selftext:
-      "The character is funny and you seem to be pretty smart and adept at working things into conversations but I feel like you need to learn to have an off switch and be chill with serious and honest demeanor with normal mic and pepper in being wild and unhinged. Otherwise the character and memes get played out quickly.",
-  },
-  {
-    title: "Hello guys, help?",
-    subreddit: "r/poland",
-    selftext:
-      "I’m brazilian and i’ve just won a “yoghurt and strawberry” chocolate by Terravita as a gift, as it is a very special gift my girlfriend tells me to eat it but i wanted to not eat it and keep it as a souvenir, but the question is, is it good? is it worth open it and eat?",
-  },
-  {
-    title:
-      "Walking in Winter in 4K | ULTRA REALISTIC DEMO in UNREAL ENGINE 5.1 RTX 4090",
-    subreddit: "r/FeatureAnimation",
-    selftext: "Hope I can use unreal in feature production someday",
-  },
-  {
-    title: "Why don’t I see the power shot replay?",
-    subreddit: "r/FIFA",
-    selftext:
-      "I bought fifa 23 in the Easter sale on ps4 and I’ve seen other people get replays that shows the speed of their shot etc, but I haven’t seen it yet? Is their something I’m missing?",
-  },
-  {
-    title:
-      "I overheard a conversation about how having a new president every 4 years doesn't work anymore. What do you all think?",
-    subreddit: "r/ask",
-    selftext:
-      "With all the political crazyness going on I'm not sure what to think.",
-  },
-  {
-    title: "My boys 💕💕",
-    subreddit: "r/BeardedDragons",
-    selftext: "Diesel and my son",
-  },
-  {
-    title: "How long until I can pass?",
-    subreddit: "r/Drugtests",
-    selftext:
-      "Hey guys, I 18 year old 130 lb female have been taking a few hits of my dab pen every night for the past 5 months. I stopped about a week ago. How long do you think until I can pass a test as I am getting a new job in about 2 months.",
-  },
-  {
-    title: "Harry Styles Chicago StubHub Coupon Code",
-    subreddit: "r/DealsCliff",
-    selftext:
-      "Follow this link for [**Harry Styles Chicago StubHub Coupon Code**](https://tiny.one/2p9fv422). Access the latest deals and promotions by visiting the link, featuring a constantly updated list of coupons, promo codes, and discounts.",
-  },
-  {
-    title: "A majority of league players are mentally ill",
-    subreddit: "r/summonerschool",
-    selftext:
-      "Like the title says— I basically got on league for the first time this week and I don’t play too often unless I’m playing with friends. So I get on a game today w my friends and I’m playing Kaisa top (disgusting I know) and the enemy chogath starts flaming for my pick and the entire enemy team trash talks me and camps my lane but I find this really amusing bcz I can tell chogath was already mad just because I picked an adc top, and yeah I understand I’m playing the game badly at this point but I don’t understand why league players will flame someone if they’re doing bad because it’s literally just a game and they act like you don’t know that you’re doing terrible, like no shit I’m doing bad but if I’m having fun and not PURPOSEFULLY inting then I’ll play however I want aslong as I enjoy myself. I just don’t understand how people forget that league is a video game because a majority of the players are really toxic and they think everyone takes it just as serious as they do. it’s also just crazy to me how many mentally ill and just straight up bad people there are playing this game. I mean you cant tell me most of the players aren’t depressed or have some sort of addiction to the game to be projecting so hard to random ass people online— nothing new, just a tangent because it’s just crazy to me how very obviously toxic the community is and it makes the game quite hard to enjoy sometimes",
-  },
+
   {
     title: "What would you make with lamb sausage?",
     subreddit: "r/Cooking",
@@ -95,12 +77,7 @@ export const subs = [
     selftext:
       "A completely unguarded chocolate display at a hotel. Very tempting to take a piece.",
   },
-  {
-    title: "What rules over our experience?",
-    subreddit: "r/awakened",
-    selftext:
-      "*I believe that sometimes it is important to trace comparisons between different fields in order to invite different people into the conversation.  Hopefully this makes sense * The medical field has been redefining what is the true command center of the body. Throughout modern times it has been argued that it is the brain that guided the body through the thought process and the peripheral nervous system. Lately, it was discovered that the gut and the central nervous system created a feedback loop that auto regulates each other through the interaction between the pituitary gland and the micro biome. It is also known that the sympathetic and parasympathetic nervous systems are regulated alongside the cardio-respiratory response, allowing consciousness to modulate the pace at which we breath and the emotional response of the body. This scientific based knowledge now offers some insight as to why it why there’s fluttering hearts and visceral responses. The central and peripheral nerviosa systems are continually processing and storing information from external experiences. At the same time, the brain has the ability to modulate the responses through the thought process, the mind is consciously experiencing itself at all times. If the experience is a constant feedback loop then it is possible to find the the courage to change the thought process on the experience of the consciousness. There are two pathways in which spirituality deals with this sense of awareness. The most common path is through existential nihilism that is easily explained by the law of attraction. The LAO allows people to go in  search for their life purpose and you will attract that purpose (often described as value) into your life. The less common pathway is metaphysical nihilism, in which it is believed that for every object that exists, there might have been a world where it doesn’t exist. The LOA states that by believing that you exist in the reality where you have the things that you want, they will align with you. What separates us from experiencing the life we want? just one thought?",
-  },
+
   {
     title: "French fries",
     subreddit: "r/Cooking",
@@ -256,28 +233,5 @@ export const subs = [
     subreddit: "foodie",
     selftext:
       "We recently purchased a 4lb bacon wrapped stuffed boneless chicken along with 4 1lb boneless skinless chicken breasts stuffed with goat cheese. We want to cook everything at the same time and the staff at the butcher said it takes 40 min per pound at 350 degrees and we have 8lb total which would make it just over 5 hours. This seems very long for chicken and from what I have read you can cook many pounds of chicken in bulk and it only takes 40-50 minutes.Does anybody have experience with cooking chicken like this and the time it takes?Thank you",
-  },
-  {
-    title: "DECENT knife sets on Amazon?",
-    subreddit: "piexe",
-    selftext: `"I was hoping someone could give me an honest recommendations for a DECENT knife set on Amazon. My budget is about $100-$150 dollars. Would optimally include a few steak knives, a large multi-purpose chef's knife, a bread knife, and a paring knife. PLEASE do NOT just say "don't buy a knife set." That's not helpful. That's all I see on Reddit. I get it, but listen. I WANT a knife set. I LIKE knife sets. I'm a casual cook on a budget. I own a knife sharpener so I don't need any fancy Japanese steel chef knives - I really just want to slightly upgrade from my Amazon no-name brand knife set that's actually served me well for 3 years. End rant."`,
-  },
-  {
-    title: "My brother toasted tomatoes in my carbon steel",
-    subreddit: "Big_Ad_2476",
-    selftext:
-      "Hey guys my brother just toasted some tomatoes in my carbon steel how should I reason it ?",
-  },
-  {
-    title: "I learned a good way on how to make pizza dough",
-    subreddit: "ib1",
-    selftext:
-      "First I took two cups of water and put them in a bowel then adding half a cup of sugar and pouring a single packet of yeast in there because I like my yeast how I like my women, alive and breathing.  Then I put in 5 scoops of bread flower and a little bit of olive oil. then I kept stirring the dough while putting in flower so it isn't sticky. then I put it in the fridge all day and made pizza with it.",
-  },
-  {
-    title: "Any good zesting tips?",
-    subreddit: "t2_juz44reh",
-    selftext:
-      "I need lime juice and lime zest… I got a little too ahead of myself, and I now have two un-zested lime halves. Any good tips for getting some zest? Microplane or something else. I did already juice the lime so the halves are not very sturdy. Know anything clever?",
   },
 ];
