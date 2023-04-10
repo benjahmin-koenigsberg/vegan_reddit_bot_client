@@ -1,5 +1,22 @@
 export const subs = [
   {
+    title: "On rye bread",
+    subreddit: "r/Cooking",
+    selftext: "I'm gonna get circle jerked to hell, I just know it  (hi babes I love u, see u soon). I just went to make my child a pb&j on rye. The bread does not have any visible mold and is, to be frank, still quite soft. It smells exactly like the same brand of rye bread always smells when i buy it. However I just looked at the date sticker and it says best before March 2 and, well, i didnt freeze and unfreeze it, its just been in the breadbox that long. I don't move through bread as quickly as I used to because I apparently get my daily gluten intake from beer. Is there any reason I should not give this bread to my child? No mold, doesn't look or taste stale. Is there some secret danger in the rye bread, some insidious pathogen I'm unaware of that i should be before I wrap this sandwich in tinfoil for tomorrow's lunch? Thank u in advance",
+  },
+  {
+    title: "Uses for cherry balsamic?",
+    subreddit: "r/Cooking",
+    selftext:
+      "I samples then bought some black cherry balsamic vinegar at a shop. Super intense cherry flavor. Now I'm wondering what I should use it for. Anyone have suggestions?",
+  },
+  {
+    title: "Trejo’s Tacos - Great Cookbook",
+    subreddit: "r/Cooking",
+    selftext:
+      "I recently borrowed Trejo’s Tacos from the library.  I’ve made the Strawberry Lemonade, Pico de Gallo, Salsa Verde, Black Beans, and Grilled Chicken Bowl recipes.  Everything turned out so delicious.  My husband told me it was “restaurant quality”. If your looking to make some yummy tacos, I highly recommend this book.  I am planning to buy the book.",
+  },
+  {
     title: "[homemade] Roast Lamb Shoulder",
     subreddit: "r/food",
     selftext:

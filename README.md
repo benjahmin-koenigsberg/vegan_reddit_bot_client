@@ -2,6 +2,10 @@
 
 Vegan Reddit Bot UI
 
+a live version on the site can be found at
+
+https://vegan-reddit-troll-client.vercel.app/
+
 ## Project Description
 
 The vegan reddit troll bot is an application to monitor incoming
